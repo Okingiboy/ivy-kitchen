@@ -77,7 +77,7 @@
         }
         
         #brand {
-            color: #dd431a;
+            color: #1addc6;
             font-weight: bold;
         }
         
@@ -91,7 +91,7 @@
             flex-wrap: wrap;
             justify-content: space-around;
             padding: 3% 0% 2% 0%;
-            background-color: #DD4B1A;
+            background-color: #1ac6dd;
             margin: 3% 5% 0% 6%;
             border-radius: 35px;
         }
@@ -152,7 +152,7 @@
         .text-box-two h4 {
             margin-bottom: 5%;
             font-weight: bolder;
-            color: #DD4B1A;
+            color: #1ad0dd;
             font-size: 18px;
         }
         
@@ -179,7 +179,7 @@
             width: 140px;
             border-radius: 10px;
             font-weight: bold;
-            background-color: #DD4B1A;
+            background-color: #1addda;
             border: 0px;
             color: white;
         }
