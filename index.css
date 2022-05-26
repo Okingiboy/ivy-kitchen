@@ -288,7 +288,7 @@
             flex-direction: column;
             width: 25%;
             text-align: center;
-            background-color: #DD4B1A;
+            background-color: #d0dd1a;
             border-radius: 40px;
             margin-left: 23%;
             padding: 0px 5px;
@@ -299,7 +299,7 @@
             flex-direction: column;
             width: 25%;
             text-align: center;
-            background-color: #DD4B1A;
+            background-color: #dddd1a;
             border-radius: 40px;
             margin-right: 23%;
         }
@@ -328,7 +328,7 @@
             margin: 0% 0% 7% 0%;
             padding: 12px;
             border: 0px;
-            background-color: #2F4858;
+            background-color: #462f5892;
             border-radius: 17px;
             color: white;
             width: 180px;
