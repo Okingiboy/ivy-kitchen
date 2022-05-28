@@ -25,7 +25,7 @@ body {
   display: inline-block;
   background-color: var(--main-color);
   color: #fff;
-  font-size: 4.1rem;
+  font-size: 1.1rem;
   text-decoration: none;
   padding: 10px 30px;
   margin: 20px 0;
@@ -270,7 +270,7 @@ section.home {
 
 .contact-form {
   position: relative;
-  background-color: #f9f9f9;
+  background-color: #f9f9f947;
   width: 100%;
   padding: 30px 30px 20px;
 }
@@ -300,9 +300,9 @@ section.home {
   width: 100%;
   padding: 10px;
   outline: none;
-  font-size: 1rem;
+  font-size: 4rem;
   font-family: inherit;
-  font-weight: 300;
+  font-weight: 600;
   margin: 10px 0;
   resize: none;
 }
@@ -317,7 +317,7 @@ section.home {
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 300;
+  font-weight: 600;
   border: 0;
   cursor: pointer;
 }
