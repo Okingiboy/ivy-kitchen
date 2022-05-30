@@ -1,163 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Ivy Kitchen | okingiboy</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<meta name="description" content="" />
-<meta name="author" content="http://okoriechukwu@yahoo.com" />
- 
-<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-<link href="assets/css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="assets/css/jcarousel.css" rel="stylesheet" />
-<link href="assets/css/flexslider.css" rel="stylesheet" />
-<link href="assets/css/style.css" rel="stylesheet" />
- 
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <h1>Music Player</h1>
 
-    
-</head>
-
-<body>
-
-	<!-- start header -->
-		<header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="assets/img/works/logof.jpg" alt="logo"/></a>
-                </div>
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">MENU</a></li>
-						<li class="active"><a href="portfolio.html">ABOUT US</a></li> 
-                        <li><a href="video.html">Gospel Music Video</a></li>
-						<li><a href="contact.html">Place Your Order</a></li>
-                    </ul>
-                </div>
-            </div>
+    <div class="music-container" id="music-container">
+      <div class="music-info">
+        <h4 id="title"></h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
         </div>
-	</header><!-- end header -->
-	
-<!-- start music play -->
+      </div>
 
-<h1>Music Player</h1>
+      <audio src="assets/music/ukulele.mp3" id="audio"></audio>
 
-<div class="music-container" id="music-container">
-  <div class="music-info">
-    <h4 id="title"></h4>
-    <div class="progress-container" id="progress-container">
-      <div class="progress" id="progress"></div>
+      <div class="img-container">
+        <img src="assets/images/ukulele.jpg" alt="music-cover" id="cover" />
+      </div>
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
     </div>
-  </div>
 
-  <audio src="assets/music/ukulele.mp3" id="audio"></audio>
-
-  <div class="img-container">
-    <img src="assets/images/ukulele.jpg" alt="music-cover" id="cover" />
-  </div>
-  <div class="navigation">
-    <button id="prev" class="action-btn">
-      <i class="fas fa-backward"></i>
-    </button>
-    <button id="play" class="action-btn action-btn-big">
-      <i class="fas fa-play"></i>
-    </button>
-    <button id="next" class="action-btn">
-      <i class="fas fa-forward"></i>
-    </button>
-  </div>
-</div>
-
-<!-- End music play -->
-
-
-	<section id="content">
-		<div class="container content">		
-        <!-- Service Blcoks -->
-        <div class="row service-v1 margin-bottom-40">
-            <div class="col-md-4 md-margin-bottom-40">
-               <img class="img-responsive" src="assets/img/works/native-menun.jpg" alt="">   
-                <h2>Web Development</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus</p>        
-            </div>
-            <div class="col-md-4">
-                <img class="img-responsive" src="assets/img/works/menu-itemsn.jpg" alt="">            
-                <h2>Mobile Development</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus</p>        
-            </div>
-            <div class="col-md-4 md-margin-bottom-40">
-              <img class="img-responsive" src="assets/img/works/home-made-drinksn.jpg" alt="">  
-                <h2>Responsive Design</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus</p>        
-            </div>
-        </div>
-        <!-- End Service Blcoks -->
-
-        <hr class="margin-bottom-50">
-
-       
-        
-    </div>
-    </section>
-	<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Our Contact</h5>
-					<address>
-					<strong>Target Business Premises</strong><br>
-					21306 Colton cove Drive<br>
-					 Houston Texas</address>
-					<p>
-						<i class="icon-phone"></i> (713) 345-0672 - 261-8165 <br>
-						<i class="icon-envelope-alt"></i> yvonnechukwu@yahoo.com
-					</p>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-	
-				<div class="col-lg-6">
-					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	</footer>
-</div>
-<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-
-<script src="./assets/script.js"></script>
-<!-- javascript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/jquery.easing.1.3.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.fancybox.pack.js"></script>
-<script src="assets/js/jquery.fancybox-media.js"></script> 
-<script src="assets/js/portfolio/jquery.quicksand.js"></script>
-<script src="assets/js/portfolio/setting.js"></script>
-<script src="assets/js/jquery.flexslider.js"></script>
-<script src="assets/js/animate.js"></script>
-<script src="assets/js/custom.js"></script>
-</body>
+    <script src="assets/script.js"></script>
+  </body>
 </html>
